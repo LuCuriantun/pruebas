@@ -13,7 +13,7 @@ class Jugador
 
     public Boolean SetNombre(String n)
     {
-        if(n=="Nadal")
+        if(n=="Nadal" || n=="Djokovic")
             return false;
         else{
             nombre = n;
